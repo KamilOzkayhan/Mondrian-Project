@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main{
+    display: grid;
+    width: 835px;
+    height: 625px;
+    background-color: black;
+    gap: 5px;
+    grid-template-columns: repeat(8, 100px);
+    grid-template-rows: repeat(6, 100px);
+    border: 5px solid black;
+}
+
+.tworow{
+    background-color: white;
+    grid-row: span 2;
+}
+.twocolumn{
+    background-color: white;
+    grid-column: 2 span;
+}
+.tworowred{
+    background-color: red;
+    grid-row: span 2;
+}
+.tworowtwocolumn{
+    background-color: white;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+.onebox{
+    background-color: white;
+}
+.oneboxred{
+    background-color: red;
+}
+.tworowyellow{
+    background-color: yellow;
+    grid-row: span 2;
+}
+.twocolumnblue{
+    background-color: blue;
+    grid-column: span 2;
+}
